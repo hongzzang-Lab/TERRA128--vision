@@ -2,16 +2,15 @@
 
 > RGB-D 기반 탐사로봇 지형 인식 및 BEV Costmap Navigation 모듈
 
-이 저장소는 TERRA128 탐사로봇 프로젝트에서 제가 담당한 **Vision 파트**를 정리한 개인 기록용 repository입니다.
-원본 실험 코드를 그대로 업로드하지 않고, 핵심 로직만 추려서 이해하기 쉽도록 정리했습니다.
+TERRA128 탐사로봇 프로젝트에서 담당한 **Vision 파트**를 정리한 개인 기록용 repository
 
----
+--
 
 ## Overview
 
-탐사로봇이 토양 조사 지점까지 안전하게 이동할 수 있도록, RealSense RGB-D Camera와 IMU 데이터를 이용해 전방 지형을 분석합니다.
+탐사로봇이 토양 조사 지점까지 안전하게 이동할 수 있도록, RealSense RGB-D Camera와 IMU 데이터를 이용해 전방 지형을 분석
 
-주요 목표는 다음과 같습니다.
+[주요 목표]
 
 - 전방 지형의 3D Point Cloud 생성
 - IMU Roll/Pitch 기반 카메라 자세 보정
