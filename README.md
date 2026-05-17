@@ -116,13 +116,6 @@ Q : Quit
 
 ---
 
-## Notes
-
-이 repository는 최종 통합 프로젝트 repo가 아니라, Vision 파트 개발 내용을 정리한 개인 기록용입니다.
-팀 공용 repo에는 최종 통합 코드와 팀 전체 문서를 별도로 관리하는 것을 권장합니다.
-
----
-
 ## Current Status
 
 - [x] RealSense depth 기반 point cloud 생성
